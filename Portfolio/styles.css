@@ -1,0 +1,40 @@
+html {
+    position: "relative";
+    min-height: 100%
+}
+
+/*Custom Styling to Boostrap*/
+.navbar {
+    background-color: #003057 !important;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: #003057;
+}
+
+/*Home Content*/
+.home {
+    background-color: #003057;
+    height: 100%;
+    width: 100%;
+}
+
+.home-content {
+    background-color: #003057;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 66%;
+}
+
+
+
