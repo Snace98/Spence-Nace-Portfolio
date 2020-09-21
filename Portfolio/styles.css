@@ -20,9 +20,16 @@ html {
     color: #003057;
 }
 
+/*Container encapsulating main content*/
+.container-fluid {
+    background-image: url("./Assets/Images/backgroundImage.jpg");
+    background-size: cover;
+}
+
 /*Home Content*/
 .home {
     background-color: #003057;
+    margin: 0 auto;
     height: 100%;
     width: 100%;
 }
@@ -30,11 +37,22 @@ html {
 .home-content {
     background-color: #003057;
     color: white;
-    display: flex;
-    justify-content: center;
     height: 70%;
     width: 66%;
 }
+
+/*Resume Content*/
+.resume {
+    margin: 0 auto;
+}
+
+
+/*Projects Content*/
+
+
+/*About Me Content*/
+
+
 
 
 
