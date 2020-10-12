@@ -41,7 +41,6 @@ html {
     background-size: cover;
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 /*Footer*/
@@ -69,9 +68,26 @@ html {
 .home-content {
     background-color: #003057;
     color: white;
-    margin: 0 auto;
+    margin: 0px auto 10px;
+    padding: 5px;
     height: 70%;
     width: 66%;
+}
+
+.contact {
+    margin: 0 auto;
+}
+
+.contact .card-header {
+    background-color: #003057;
+    color: white;
+    text-align: center;
+}
+
+.contact i {
+    font-size: "20px";
+    color: #003057;
+    margin: auto;
 }
 
 /*Resume Content*/
