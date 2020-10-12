@@ -1,11 +1,10 @@
-/*https://www.w3.org/Style/Examples/007/center.en.html#:~:text=The%20essential%20rules%20are%3A%201%20Make%20the%20container,to%20the%20height%20of%20the%20element%20itself.%29%20*/
-
 html {
     position: "relative";
-    min-height: 100%
+    min-height: 100%;
+    background-image: url("./Assets/Images/BackgroundImages/3.jpg");
 }
 
-/*Custom Styling to Boostrap*/
+/*CUSTOM STYLING TO BOOTSTRAP*/
 .navbar {
     background-color: #003057 !important;
     color: white;
@@ -35,15 +34,14 @@ html {
     color: white !important;
 }
 
-/*Container encapsulating main content*/
+/*CONTAINER ENCAPSULATING MAIN CONTENT*/
 .container-fluid {
-    background-image: url("./Assets/Images/backgroundImage.jpg");
     background-size: cover;
     height: 100%;
     background-position: center;
 }
 
-/*Footer*/
+/*FOOTER*/
 .footer {
     position: fixed;
     left: 0;
@@ -54,24 +52,28 @@ html {
 }
 
 .footer i {
-    margin: auto;
+    margin: 3px auto;
 }
 
-/*Home Content*/
+.footer i:hover {
+    margin: 3px 3px;
+    color: #005AA3;
+}
+
+/*HOME CONTENT*/
 .home {
-    background-color: #003057;
-    margin: 0 auto;
+    background-image: url("./Assets/Images/BackgroundImages/HomePageBackground.jpg");
     height: 100%;
-    width: 60%;
+    text-align: center;
 }
 
 .home-content {
     background-color: #003057;
     color: white;
     margin: 0px auto 10px;
-    padding: 5px;
+    padding: 10px;
     height: 70%;
-    width: 66%;
+    width: 40%;
 }
 
 .contact {
@@ -81,7 +83,6 @@ html {
 .contact .card-header {
     background-color: #003057;
     color: white;
-    text-align: center;
 }
 
 .contact i {
@@ -90,36 +91,59 @@ html {
     margin: auto;
 }
 
-/*Resume Content*/
+/*RESUME CONTENT*/
 .resume {
     margin: auto;
+    background-image: url("./Assets/Images/BackgroundImages/ResumePageBackground.jpg");
+    text-align: center;
 }
 
 .resume img {
     padding: 20px;
 }
 
-/*Projects Content*/
+/*PROJECTS CONTENT*/
+.projects {
+    background-image: url("./Assets/Images/BackgroundImages/ProjectsPageBackground.jpg");
+    text-align: center;
+}
 .projects h1 {
     color: white;
-    text-align: center;
 }
 
 .projects .card {
     margin: 20px 15%;
     border: 4px solid #050763;
+    background-color: #003057;
+    color: white;
 }
 
-/*About Me Content*/
+/*ABOUT ME CONTENT*/
+.about {
+    background-image: url("./Assets/Images/BackgroundImages/AboutMeBackground.jpg");
+    margin: auto;
+    text-align: center;
+}
+
 .about h1 {
     color: white;
-    text-align: center;
 }
 
-.about p {
+.about-me-text {
     color: white;
-    text-align: center;
+    background-color: #003057;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
 }
 
-
+.name {
+    border: 8px solid;
+    border-radius: 36px;
+    padding: 6px 12px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
 
