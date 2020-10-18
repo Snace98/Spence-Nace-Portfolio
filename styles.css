@@ -63,6 +63,7 @@ html {
 /*HOME CONTENT*/
 .home {
     background-image: url("./Assets/Images/BackgroundImages/HomePageBackground.jpg");
+    background-size: cover;
     height: 100%;
     text-align: center;
 }
@@ -121,7 +122,6 @@ html {
 /*ABOUT ME CONTENT*/
 .about {
     background-image: url("./Assets/Images/BackgroundImages/AboutMeBackground.jpg");
-    margin: auto;
     text-align: center;
 }
 
