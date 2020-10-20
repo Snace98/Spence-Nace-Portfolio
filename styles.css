@@ -39,6 +39,7 @@ html {
     background-size: cover;
     height: 100%;
     background-position: center;
+    padding: 0;
 }
 
 /*HEADER*/
@@ -67,7 +68,9 @@ html {
     bottom: 0;
     width: 100%;
     height: 5%;
+    margin-top: 300px;
     background-color: #003057;
+    border-top: 2px solid #333e46;
 }
 
 .footer i {
@@ -81,23 +84,43 @@ html {
 
 /*HOME CONTENT*/
 .home {
-    background-image: url("./Assets/Images/BackgroundImages/HomePageBackground.jpg");
     background-size: cover;
+    background-color: #003057;
     height: 100%;
     text-align: center;
 }
 
 .home-content {
-    background-color: #003057;
+    background-color: #333e46;
     color: white;
     margin: 0px auto 10px;
     padding: 10px;
     height: 70%;
-    width: 40%;
+    width: 100%;
 }
 
+.home-content p {
+    padding: 10px 15%;
+}
+
+/*HOME SKILLS SECTION*/
+.tech-skills {
+    color: #003057;
+    width: 45%;
+    margin-left: 3.5%;
+    float: left;
+}
+
+.soft-skills{
+    width: 45%;
+    margin-right: 3.5%;
+    float: right;
+    color: #003057;
+}
+
+/*HOME CONTACT CARD*/
 .contact {
-    margin: 0 auto;
+    margin: 200px auto 100px;
 }
 
 .contact .card-header {
@@ -155,5 +178,6 @@ html {
     padding: 20px;
     border: 2px solid white;
 }
+
 
 
