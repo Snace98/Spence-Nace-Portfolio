@@ -56,84 +56,36 @@
             </div>
 
             <!--Tech Skills-->
-            <div class="card tech-skills float-left">
+            <div class="card tech-skills">
               <i class="card-header fa fa-desktop"><h3>Tech Skills</h3></i>            
-              <ul class="list-group list-group-flush scrollbar scrollbar-primary">
-                  <li class="list-group-item">
-                    <i class="">Javascript</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">C#</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">.Net</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Java</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Spring Boot</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">HTML</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">CSS</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">React.js</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Vue.js</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">SQL</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">MongoDB</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Express</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Node</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Unity</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Virtual Development</i>
-                  </li>
-                </ul>
+              <div id="tech-list"></div>
+              
             </div>
 
             <!--Soft Skills-->
             <div class="card soft-skills float-right">
               <i class="card-header fa fa-users"><h3>Soft Skills</h3></i>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <i class="">Team Oriented</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Public Speaking</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Verbal and Written Communication</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Driven to Learn</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Creative Problem Solving</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Time Management</i>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="">Interpersonal Skills</i>
-                  </li>
-                </ul>
+               <div id="soft-list"></div>
             </div>
+            
+            <!--Script produces ul from array to clean up html-->  
+            <script>
+              var techSkillsArr = ["Javascript", "C#", ".Net", "Java", "Spring Boot", "HTML", "CSS", "React.js", "Vue.js", "SQL", "MongoDB", "Express", "Node", "Unity", "Virtual Reality Development"];
+              var softSkillsArr = ["Team Oriented", "Public Speaking", "Verbal and Written Communication", "Driven to Learn", "Creative Problem Solving", "Time Management", "Interpersonal Skills"];
+
+              function createList(arr, id) {
+                var str = '<ul class="list-group list-group-flush">';
+            
+                techSkillsArr.forEach(function(item) {
+                  str += '<li class="list-group-item"><i>' + item + '</></li>';
+                })
+              
+                document.getElementById(id).innerHTML = str;
+            }
+
+            createList(techSkillsArr, "tech-list");
+            createList(softSkillsArr, "soft-list");
+          </script>
 
             <!--Contact Me Card-->
             <div class="contact card row" style="width: 18rem;">

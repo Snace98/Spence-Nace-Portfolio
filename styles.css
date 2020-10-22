@@ -1,6 +1,6 @@
 html {
     min-height: 100%;
-    background-image: url("./Assets/Images/BackgroundImages/3.jpg");
+    background-image: url("./Assets/Images/BackgroundImages/FillerBackground.jpg");
 
 }
 
@@ -94,7 +94,7 @@ p, h1, h2, h3, h4, h5, i {
 
 .home-content {
     background-color: #333e46;
-    background-image: url("./Assets/Images/joel-filipe-Wc8k-KryEPM-unsplash.jpg");
+    background-image: url("./Assets/Images/BackgroundImages/HomePageBackground.jpg");
     color: white;
     margin: 0px auto 10px;
     padding: 10px;
