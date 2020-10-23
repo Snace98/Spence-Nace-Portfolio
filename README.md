@@ -3,8 +3,9 @@
 I designed this web app to showcase some of my experience developing software and provide a bit of information about me. 
 
 ## Screenshots
-<img src="./Assets/ReadmeImages/PortfolioHomeCapture.png">
-<img src="./Assets/ReadmeImages/PortfolioResumeCapture.png">
+![PortfolioHomeCapture](https://user-images.githubusercontent.com/54595067/97031522-11698280-1526-11eb-9869-425d023a4845.PNG)
+![PortfolioResumeCapture](https://user-images.githubusercontent.com/54595067/97031602-2ba36080-1526-11eb-86da-0955b3da4a3c.PNG)
+
 
 
 ## Link to deployed application
