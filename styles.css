@@ -4,9 +4,21 @@ html {
 
 }
 
-p, h1, h2, h3, h4, h5, i {
+::-webkit-scrollbar {
+    width: 20px;          
+ }
+
+::-webkit-scrollbar-thumb {   
+    border-radius: 30px;
+    background-color: #005AA3;
+    box-shadow: inset 2px 2px 2px #333e46, inset -2px -2px 2px #003057;
 }
 
+::-webkit-scrollbar-track {     
+    background-color: #fff;
+  }
+
+   
 /*CUSTOM STYLING TO BOOTSTRAP*/
 .navbar {
     background-color: #003057 !important;
@@ -180,6 +192,11 @@ p, h1, h2, h3, h4, h5, i {
     color: white;
 }
 
+.projects .card-text {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
 /*ABOUT ME CONTENT*/
 .about {
     background-image: url("./Assets/Images/BackgroundImages/AboutMeBackground.jpg");
@@ -191,6 +208,8 @@ p, h1, h2, h3, h4, h5, i {
 }
 
 .about-me-text {
+    max-height: 400px;
+    overflow-y: auto;
     color: white;
     background-color: #003057;
     margin: 20px;
