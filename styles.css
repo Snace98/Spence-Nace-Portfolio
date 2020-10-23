@@ -1,7 +1,6 @@
 html {
     min-height: 100%;
     background-image: url("./Assets/Images/BackgroundImages/FillerBackground.jpg");
-
 }
 
 ::-webkit-scrollbar {
@@ -164,9 +163,9 @@ html {
 
 /*RESUME CONTENT*/
 .resume {
-    margin: auto;
     background-image: url("./Assets/Images/BackgroundImages/ResumePageBackground.jpg");
     text-align: center;
+    overflow-x: hidden;
 }
 
 .resume img {
