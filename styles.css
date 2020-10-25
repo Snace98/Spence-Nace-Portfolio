@@ -168,6 +168,10 @@ html {
     overflow-x: hidden;
 }
 
+.resume .footer {
+    position: fixed;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones*/
     .resume {
@@ -212,6 +216,9 @@ html {
 .about {
     background-image: url("./Assets/Images/BackgroundImages/AboutMeBackground.jpg");
     text-align: center;
+}
+.about img {
+    object-fit: scale-down;
 }
 
 .about h1 {
